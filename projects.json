@@ -6,7 +6,25 @@
     "github":   "https://github.com/ayushc121",
     "email":    "chauras0@purdue.edu"
   },
+  
   "projects": [
+      {
+      "id":    "ai-grand-prix",
+      "title": "Anduril Industries AI Grand Prix",
+      "date":  "May 2026 – Aug 2026",
+      "tags":  ["State Estimation", "GNC", "Computer Vision", "Sensor Fusion", "System Identification"],
+      "summary": "Building a fully autonomous drone racing pilot for the Anduril Industries AI Grand Prix: MAVLink comms, computer vision gate detection, state estimation, cascade controllers, and a system ID study to inform the control design.",
+      "description": "**What** — A fully autonomous drone pilot stack built for the Anduril Industries AI Grand Prix competition, designed to navigate a racing course from takeoff to landing without any human input.\n\n**How** — Developed MAVLink communication handlers for telemetry and command, a computer vision pipeline for gate detection, state estimation, and a cascade controller architecture managing thrust and attitude. Conducted a formal system identification study of the drone's flight dynamics to parameterize and tune the control design.\n\n**Results** — Advanced to the final round of virtual qualifiers, but did not make it to physical competition. The system achieves stable autonomous flight with real-time gate detection and course navigation.",
+      "hero": "assets/AndurilGPHero.png",
+      "media": [
+        { "type": "image", "src": "assets/OE-Analysis.png", "caption": "System Identification Diagnostic Plot" },
+        { "type": "image", "src": "assets/ParameterStudy.png", "caption": "Multi-Regime Parameter Visualization" }
+      ],
+      "links": {
+        "github": "https://github.com/ayushc121/AndurilGP",
+        "video": "https://www.youtube.com/watch?v=HfdJw55CZkQ"
+      }
+    },
     {
       "id":    "drone-frame-fea",
       "title": "Drone Frame FEA Study",
@@ -37,23 +55,6 @@
       "links": {
         "github": "https://github.com/ayushc121/starkHacks",
         "video": "https://www.youtube.com/watch?v=E8IrfMaYsBM"
-      }
-    },
-    {
-      "id":    "ai-grand-prix",
-      "title": "Anduril Industries AI Grand Prix",
-      "date":  "May 2026 – Aug 2026",
-      "tags":  ["State Estimation", "GNC", "Computer Vision", "Sensor Fusion", "System Identification"],
-      "summary": "Building a fully autonomous drone racing pilot for the Anduril Industries AI Grand Prix: MAVLink comms, computer vision gate detection, state estimation, cascade controllers, and a system ID study to inform the control design.",
-      "description": "**What** — A fully autonomous drone pilot stack built for the Anduril Industries AI Grand Prix competition, designed to navigate a racing course from takeoff to landing without any human input.\n\n**How** — Developed MAVLink communication handlers for telemetry and command, a computer vision pipeline for gate detection, state estimation, and a cascade controller architecture managing thrust and attitude. Conducted a formal system identification study of the drone's flight dynamics to parameterize and tune the control design.\n\n**Results** — Advanced to the final round of virtual qualifiers, but did not make it to physical competition. The system achieves stable autonomous flight with real-time gate detection and course navigation.",
-      "hero": "assets/AndurilGPHero.png",
-      "media": [
-        { "type": "image", "src": "assets/OE-Analysis.png", "caption": "System Identification Diagnostic Plot" },
-        { "type": "image", "src": "assets/ParameterStudy.png", "caption": "Multi-Regime Parameter Visualization" }
-      ],
-      "links": {
-        "github": "https://github.com/ayushc121/AndurilGP",
-        "video": "https://www.youtube.com/watch?v=HfdJw55CZkQ"
       }
     },
     {
