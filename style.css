@@ -119,10 +119,19 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .hero h1 {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(3.5rem, 9vw, 7.5rem);
+  font-size: clamp(3.5rem, 6vw, 5rem);
   line-height: 0.93;
   letter-spacing: -0.035em;
   margin-bottom: 2.75rem;
+}
+
+.hero-intro {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--gray-text);
+  max-width: 520px;
+  margin-bottom: 2rem;
 }
 
 .hero-meta {

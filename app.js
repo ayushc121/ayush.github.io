@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async () => {
    ============================================================ */
 function renderHeader(p) {
   setEl('page-title', `${p.name ?? 'Portfolio'} — Projects`);
-  setEl('header-name', p.name ?? '');
+  setEl('header-name', (p.name ?? '') + ' — Portfolio');
   setHref('header-linkedin', p.linkedin, true);
 
   // Hide PDF link if portfolio.pdf doesn't exist (can't detect easily, keep it)
