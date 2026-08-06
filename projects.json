@@ -8,6 +8,7 @@
   },
   
   "projects": [
+    
       {
       "id":    "ai-grand-prix",
       "title": "Anduril Industries AI Grand Prix",
@@ -25,38 +26,7 @@
         "video": "https://www.youtube.com/watch?v=HfdJw55CZkQ"
       }
     },
-    {
-      "id":    "drone-frame-fea",
-      "title": "Drone Frame FEA Study",
-      "date":  "Jun 2026",
-      "tags":  ["FEA", "Shape Optimization", "Structural Analysis", "Simulation"],
-      "summary": "Reduced drone airframe weight by over 50% through shape optimization and FEA, arriving at a 0.17 kg polycarbonate frame validated through dynamic collision simulation.",
-      "description": "**What** — A weight minimization study on a multirotor drone airframe, targeting maximum mass reduction while preserving structural integrity and safety margins under realistic loading conditions.\n\n**How** — Applied iterative shape optimization to progressively refine frame geometry, evaluating stress distributions and safety factors at each design iteration. Validated the final design through dynamic event simulation, modeling high-speed collision scenarios to confirm structural integrity under transient impact loads.\n\n**Results** — Reduced frame weight by over 50%, arriving at a final polycarbonate frame of 0.17 kg capable of safely supporting payloads exceeding 2.5 kg with maintained factors of safety. Dynamic collision simulation confirmed structural integrity throughout the impact event.",
-      "hero": "assets/ShapeOpt.jpg",
-      "media": [
-        { "type": "image", "src": "assets/OptStress.jpg", "caption": "Stress Analysis of Optimized Frame" },
-        { "type": "image", "src": "assets/NaiveStress.jpg", "caption": "Stress Analysis of Naive Frame" }
-      ],
-      "links": {
-        "video": "https://youtube.com/watch?v=gPhkBMU2XXw"
-      }
-    },
-    {
-      "id":    "acoustic-drone-detection",
-      "title": "Acoustic Drone Detection System",
-      "date":  "Apr 2026",
-      "tags":  ["Embedded Systems", "C++", "Signal Processing", "Machine Learning", "PyTorch", "Prototyping"],
-      "summary": "Built a fully offline acoustic drone detector in 36 hours: a custom circuit, real-time FFT on an ESP32, and an embedded PyTorch model achieving 85% detection accuracy at 15 yards.",
-      "description": "**What** — A low-cost, fully standalone acoustic early-warning sensor for nearby drone detection, designed to operate entirely offline with no cloud or internet dependency.\n\n**How** — Repurposed an 8Ω speaker as a directional microphone through a custom breadboarded circuit. Programmed an ESP32 microcontroller in C++ to perform real-time FFT analysis on the incoming audio stream, driving hardware alerts with zero latency. Trained a PyTorch neural network on drone acoustic signatures, then embedded the quantized model weights directly onto the microcontroller for on-device inference.\n\n**Results** — Achieved 85% drone detection accuracy at 15 yards. The complete system (from circuit design through trained model deployment) was built in 36 hours.",
-      "hero": "assets/AudioCloseUp.jpg",
-      "media": [
-        { "type": "image", "src": "assets/AudioDetection.jpg", "caption": "Successful Detection of Drone Audio" }
-      ],
-      "links": {
-        "github": "https://github.com/ayushc121/starkHacks",
-        "video": "https://www.youtube.com/watch?v=E8IrfMaYsBM"
-      }
-    },
+    
     {
       "id":    "3dof-sysid",
       "title": "3DoF Plane System Identification Study",
@@ -76,6 +46,42 @@
 
       }
     },
+    
+    {
+      "id":    "acoustic-drone-detection",
+      "title": "Acoustic Drone Detection System",
+      "date":  "Apr 2026",
+      "tags":  ["Embedded Systems", "C++", "Signal Processing", "Machine Learning", "PyTorch", "Prototyping"],
+      "summary": "Built a fully offline acoustic drone detector in 36 hours: a custom circuit, real-time FFT on an ESP32, and an embedded PyTorch model achieving 85% detection accuracy at 15 yards.",
+      "description": "**What** — A low-cost, fully standalone acoustic early-warning sensor for nearby drone detection, designed to operate entirely offline with no cloud or internet dependency.\n\n**How** — Repurposed an 8Ω speaker as a directional microphone through a custom breadboarded circuit. Programmed an ESP32 microcontroller in C++ to perform real-time FFT analysis on the incoming audio stream, driving hardware alerts with zero latency. Trained a PyTorch neural network on drone acoustic signatures, then embedded the quantized model weights directly onto the microcontroller for on-device inference.\n\n**Results** — Achieved 85% drone detection accuracy at 15 yards. The complete system (from circuit design through trained model deployment) was built in 36 hours.",
+      "hero": "assets/AudioCloseUp.jpg",
+      "media": [
+        { "type": "image", "src": "assets/AudioDetection.jpg", "caption": "Successful Detection of Drone Audio" }
+      ],
+      "links": {
+        "github": "https://github.com/ayushc121/starkHacks",
+        "video": "https://www.youtube.com/watch?v=E8IrfMaYsBM"
+      }
+    },
+
+    {
+      "id":    "drone-frame-fea",
+      "title": "Drone Frame FEA Study",
+      "date":  "Jun 2026",
+      "tags":  ["FEA", "Shape Optimization", "Structural Analysis", "Simulation"],
+      "summary": "Reduced drone airframe weight by over 50% through shape optimization and FEA, arriving at a 0.17 kg polycarbonate frame validated through dynamic collision simulation.",
+      "description": "**What** — A weight minimization study on a multirotor drone airframe, targeting maximum mass reduction while preserving structural integrity and safety margins under realistic loading conditions.\n\n**How** — Applied iterative shape optimization to progressively refine frame geometry, evaluating stress distributions and safety factors at each design iteration. Validated the final design through dynamic event simulation, modeling high-speed collision scenarios to confirm structural integrity under transient impact loads.\n\n**Results** — Reduced frame weight by over 50%, arriving at a final polycarbonate frame of 0.17 kg capable of safely supporting payloads exceeding 2.5 kg with maintained factors of safety. Dynamic collision simulation confirmed structural integrity throughout the impact event.",
+      "hero": "assets/ShapeOpt.jpg",
+      "media": [
+        { "type": "image", "src": "assets/OptStress.jpg", "caption": "Stress Analysis of Optimized Frame" },
+        { "type": "image", "src": "assets/NaiveStress.jpg", "caption": "Stress Analysis of Naive Frame" }
+      ],
+      "links": {
+        "video": "https://youtube.com/watch?v=gPhkBMU2XXw"
+      }
+    },
+
+    
     {
       "id":    "torch-igniter",
       "title": "Torch Igniter",
@@ -91,5 +97,6 @@
         
       }
     }
+    
   ]
 }
