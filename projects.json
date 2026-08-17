@@ -26,6 +26,24 @@
         "video": "https://www.youtube.com/watch?v=HfdJw55CZkQ"
       }
     },
+
+
+    {
+      "id":    "embedded-kalman-filter",
+      "title": "",
+      "date":  "Aug 2026",
+      "tags":  ["State Estimation", "Kalman Filter", "Embedded Systems", "C++", "Signal Processing"],
+      "summary": "",
+      "description": "",
+      "hero": "assets/kalman_pic.jpg",
+      "media": [
+        { "type": "image", "src": "assets/visualizer.png", "caption": "Orientation Visualization" }
+      ],
+      "links": {
+        "github": "https://github.com/ayushc121/kalmanFilter",
+        "video": "https://www.youtube.com/watch?v=lAF7UrxtVgM"
+      }
+    },
     
     {
       "id":    "3dof-sysid",
@@ -62,41 +80,7 @@
         "github": "https://github.com/ayushc121/starkHacks",
         "video": "https://www.youtube.com/watch?v=E8IrfMaYsBM"
       }
-    },
-
-    {
-      "id":    "drone-frame-fea",
-      "title": "Drone Frame FEA Study",
-      "date":  "Jun 2026",
-      "tags":  ["FEA", "Shape Optimization", "Structural Analysis", "Modeling & Simulation"],
-      "summary": "Reduced drone airframe weight by over 50% through shape optimization and FEA, arriving at a 0.17 kg polycarbonate frame validated through dynamic collision simulation.",
-      "description": "**What** — A weight minimization study on a multirotor drone airframe, targeting maximum mass reduction while preserving structural integrity and safety margins under realistic loading conditions.\n\n**How** — Applied iterative shape optimization to progressively refine frame geometry, evaluating stress distributions and safety factors at each design iteration. Validated the final design through dynamic event simulation, modeling high-speed collision scenarios to confirm structural integrity under transient impact loads.\n\n**Results** — Reduced frame weight by over 50%, arriving at a final polycarbonate frame of 0.17 kg capable of safely supporting payloads exceeding 2.5 kg with maintained factors of safety. Dynamic collision simulation confirmed structural integrity throughout the impact event.",
-      "hero": "assets/ShapeOpt.jpg",
-      "media": [
-        { "type": "image", "src": "assets/OptStress.jpg", "caption": "Stress Analysis of Optimized Frame" },
-        { "type": "image", "src": "assets/NaiveStress.jpg", "caption": "Stress Analysis of Naive Frame" }
-      ],
-      "links": {
-        "video": "https://youtube.com/watch?v=gPhkBMU2XXw"
-      }
-    },
-
-    
-    {
-      "id":    "torch-igniter",
-      "title": "Torch Igniter",
-      "date":  "Sep 2025 – May 2026",
-      "tags":  ["Propulsion", "Structural Analysis", "Manufacturing"],
-      "summary": "Led integration of an oxygen-based afterburner into a university rocketry club torch igniter, increasing predicted exhaust temperature by 80% while maintaining structural safety margins through hotfire.",
-      "description": "**What** — A torch igniter redesign for a university rocketry club propulsion test system, targeting a significant increase in exhaust temperature without compromising structural safety margins.\n\n**How** — Led the integration of an oxygen-based afterburner into the igniter assembly, performing structural analysis throughout the design process to maintain sufficient factors of safety. Coordinated with team members and club leadership to plan and execute manufacturing and hotfire testing.\n\n**Results** — Increased predicted exhaust temperature by 80% over the baseline design. The redesigned igniter passed hotfire testing with structural integrity and safety margins maintained throughout.",
-      "hero": "assets/torchReal.jpg",
-      "media": [
-        { "type": "image", "src": "assets/TorchModels.png", "caption": "CAD Model Views" }
-      ],
-      "links": {
-        
-      }
-    }
+    },    
     
   ]
 }
